@@ -4,6 +4,15 @@ import requests
 
 from urllib.parse import quote, urlencode, urljoin
 
+CACHE_FILEPATH = './cache.json'
+
+
+NONE_VALUES = ('', 'n/a', 'none', 'unknown')
+HYRULE_ENDPOINT = 'https://botw-compendium.herokuapp.com/api/v3/compendium'
+HYRULE_CATEGORIES = f"{HYRULE_ENDPOINT}/category/"
+HYRULE_ENTRY = f"{HYRULE_ENDPOINT}/entry/"
+HYRULE_ALL = f"{HYRULE_ENDPOINT}/all/"
+HYRULE_IMAGE = f"{HYRULE_ENDPOINT}/entry/{{}}/image"
 
 def create_cache(filepath):
     """Attempts to retrieve cache contents written to the file system. If successful the
@@ -18,9 +27,11 @@ def create_cache(filepath):
     """
 
     try:
-        return read_json(filepath)
+        with open(filepath, 'r') as file:
+            return json.load(file)
     except FileNotFoundError:
         return {}
+
 
 
 def create_cache_key(url, params=None):
@@ -152,3 +163,22 @@ def read_json(filepath, encoding='utf-8'):
 
     with open(filepath, 'r', encoding=encoding) as file_obj:
         return json.load(file_obj)
+
+def save_cache(filepath, cache):
+    with open(filepath, 'w') as file:
+        json.dump(cache, file)
+
+def fetch_item_details(item_name, cache, cache_filepath):
+    # Check if the item is in the cache
+    if item_name in cache:
+        return cache[item_name]
+
+    # If not in cache, make the API request
+    url = f"{HYRULE_ENTRY}{item_name}"
+    response = request_data(url)
+    if response and 'data' in response:
+        # Store the new data in the cache and save it
+        cache[item_name] = response['data']
+        save_cache(cache_filepath, cache)
+        return response['data']
+    return None

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Item Search - Hyrule Compendium</title>
+</head>
+<body>
+    <h2>Search for an Item</h2>
+    <form method="post">
+        Enter the name of the item: <br>
+        <input type="text" name="item_name">
+        <input type="submit" value="Search">
+        {% if error %}
+            <p style="color: red;">{{ error }}</p>
+        {% endif %}
+    </form>
+</body>
+</html>

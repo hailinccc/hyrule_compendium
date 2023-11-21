@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome - Hyrule Compendium</title>
+</head>
+<body>
+    <h1>Welcome to the Hyrule Compendium Project</h1>
+    <p>This project can be used as an encyclopedia or a statistical summary.</p>
+    <form method="post">
+        Do you want to find a specific item? (yes/no) <br>
+        <input type="text" name="initial_choice">
+        <input type="submit" value="Submit">
+        {% if error %}
+            <p style="color: red;">{{ error }}</p>
+        {% endif %}
+    </form>
+</body>
+</html>

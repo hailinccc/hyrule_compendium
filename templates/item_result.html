@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Item Result - Hyrule Compendium</title>
+</head>
+<body>
+    <h2>Item Result</h2>
+    {% if item_data.image %}
+        <img src="{{ item_data.image }}" alt="{{ item_data.name }}">
+    {% endif %}
+    {% for key, value in item_data.items() %}
+        <h3>{{ key.capitalize().replace('_', ' ') }}</h3>
+        {% if value is iterable and value is not string %}
+            <ul>
+                {% for item in value %}
+                    <li>{{ item }}</li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>{{ value }}</p>
+        {% endif %}
+    {% endfor %}
+</body>
+</html>

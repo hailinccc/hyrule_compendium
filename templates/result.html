@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Item Details</title>
+</head>
+<body>
+    <h1>Item Details</h1>
+    {% if item_data %}
+        <table>
+            <tr><td>Name:</td><td>{{ item_data.name }}</td></tr>
+            <!-- Add other details similarly -->
+        </table>
+        <!-- Display Image -->
+        <img src="{{ item_data.image }}" alt="Item Image">
+    {% else %}
+        <p>Item not found.</p>
+    {% endif %}
+    <a href="/">Back to Search</a>
+</body>
+</html>
