@@ -169,15 +169,12 @@ def save_cache(filepath, cache):
         json.dump(cache, file)
 
 def fetch_item_details(item_name, cache, cache_filepath):
-    # Check if the item is in the cache
     if item_name in cache:
         return cache[item_name]
 
-    # If not in cache, make the API request
     url = f"{HYRULE_ENTRY}{item_name}"
     response = request_data(url)
     if response and 'data' in response:
-        # Store the new data in the cache and save it
         cache[item_name] = response['data']
         save_cache(cache_filepath, cache)
         return response['data']
