@@ -8,8 +8,7 @@ cache = utl.create_cache(utl.CACHE_FILEPATH)
 @app.route('/analysis', methods=['GET', 'POST'])
 def analysis():
     if request.method == 'POST':
-        # Here, handle the analysis logic based on user input
-        pass  # Implement your analysis logic
+        pass
     return render_template('analysis.html')
 
 
@@ -28,7 +27,6 @@ def welcome():
 
 @app.route('/')
 def index():
-    # Code for the index route
     return render_template('index.html')
 
 @app.route('/search', methods=['POST'])
@@ -49,7 +47,6 @@ def search_item():
     if request.method == 'POST':
         item_name = request.form['item_name']
 
-        # Fetch item details using the cache
         item_data = utl.fetch_item_details(item_name, cache, utl.CACHE_FILEPATH)
 
         if item_data:
@@ -70,7 +67,6 @@ def item_result():
 def perform_analysis():
     user_response = request.form['do_analysis'].strip().lower()
     if user_response == 'yes':
-        # Logic for analysis
         return render_template('analysis_results.html', results=analysis_results)
     else:
         return render_template('index.html', message="Returning to main menu.")
