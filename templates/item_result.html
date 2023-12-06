@@ -4,21 +4,76 @@
     <title>Item Result - Hyrule Compendium</title>
 </head>
 <body>
-    <h2>Item Result</h2>
-    {% if item_data.image %}
-        <img src="{{ item_data.image }}" alt="{{ item_data.name }}">
+    <h2>{{ item.name }}</h2>
+    <img src="{{ item.image }}" alt="{{ item.name }}">
+
+    <p><strong>Description:</strong> {{ item.description }}</p>
+    <p><strong>Category:</strong> {{ item.category }}</p>
+    <p><strong>ID:</strong> {{ item.id }}</p>
+    <p><strong>DLC:</strong> {{ item.dlc }}</p>
+
+    <h3>Common Locations</h3>
+    {% if item.common_locations %}
+        <ul>
+            {% for location in item.common_locations %}
+                <li>{{ location }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>Not available</p>
     {% endif %}
-    {% for key, value in item_data.items() %}
-        <h3>{{ key.capitalize().replace('_', ' ') }}</h3>
-        {% if value is iterable and value is not string %}
+
+    {% if item.category == 'creatures' %}
+        <p><strong>Edible:</strong> {{ item.edible }}</p>
+        <p><strong>Cooking Effect:</strong> {{ item.cooking_effect or 'Not available' }}</p>
+        <p><strong>Hearts Recovered:</strong> {{ item.hearts_recovered or 'Not available' }}</p>
+        {% if not item.edible %}
+            <h3>Drops</h3>
             <ul>
-                {% for item in value %}
-                    <li>{{ item }}</li>
+                {% for drop in item.drops %}
+                    <li>{{ drop or 'Not available' }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+
+    {% elif item.category == 'monsters' %}
+        <h3>Drops</h3>
+        {% if item.drops %}
+            <ul>
+                {% for drop in item.drops %}
+                    <li>{{ drop }}</li>
                 {% endfor %}
             </ul>
         {% else %}
-            <p>{{ value }}</p>
+            <p>Not available</p>
         {% endif %}
-    {% endfor %}
+
+    {% elif item.category == 'materials' %}
+        <p><strong>Cooking Effect:</strong> {{ item.cooking_effect or 'Not available' }}</p>
+        <p><strong>Hearts Recovered:</strong> {{ item.hearts_recovered or 'Not available' }}</p>      
+ 	<p><strong>Fuse Attack Power:</strong> {{ item.fuse_attack_power or 'Not available' }}</p>
+
+
+
+
+    {% elif item.category == 'equipment' %}
+        <p><strong>Type:</strong> {{ item.properties.type or 'Not available' }}</p>
+        <p><strong>Attack:</strong> {{ item.properties.attack or 'Not available' }}</p>
+        <p><strong>Defense:</strong> {{ item.properties.defense or 'Not available' }}</p>
+        <p><strong>Effect:</strong> {{ item.properties.effect or 'Not available' }}</p>
+
+    {% elif item.category == 'treasure' %}
+        <h3>Drops</h3>
+        {% if item.drops %}
+            <ul>
+                {% for drop in item.drops %}
+                    <li>{{ drop }}</li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>Not available</p>
+        {% endif %}
+
+    {% endif %}
 </body>
 </html>

@@ -1,11 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Analysis Results - Hyrule Compendium</title>
+    <title>Analysis Results</title>
+    <!-- Load Plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
 <body>
-    <h2>Analysis Results</h2>
-    <!-- Display analysis results here -->
-    <!-- This could be in the form of tables, charts, or text -->
+    <h1>Analysis Results</h1>
+    <p>{{ combo_str }}</p>
+    
+    <!-- Div to hold the pie chart -->
+    <div id="pie-chart"></div>
+
+    <script>
+        var graph_json = {{ graph_json|safe }};
+        Plotly.newPlot('pie-chart', graph_json.data, graph_json.layout);
+    </script>
+
+    <!-- Displaying items in best_combo -->
+    <h2>Items:</h2>
+    <ul>
+        {% for item in items %}
+            <li>{{ item['name'] }}: {{ item['hearts_recovered'] }} hearts</li>
+        {% endfor %}
+    </ul>
 </body>
 </html>

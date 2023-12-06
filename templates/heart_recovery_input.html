@@ -1,0 +1,15 @@
+<!-- heart_recovery_input.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Heart Recovery Input</title>
+</head>
+<body>
+    <h1>Heart Recovery Input</h1>
+    <form action="{{ url_for('perform_analysis') }}" method="post">
+        <label for="hearts_needed">Number of hearts to recover:</label>
+        <input type="text" id="hearts_needed" name="hearts_needed" required>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
