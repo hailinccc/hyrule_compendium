@@ -1,0 +1,645 @@
+{
+    "48": {
+        "name": "hyrule bass",
+        "common_locations": [
+            "Hyrule Field",
+            "West Necluda"
+        ],
+        "hearts_recovered": 1.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/hyrule_bass/image"
+    },
+    "49": {
+        "name": "hearty bass",
+        "common_locations": [
+            "West Necluda",
+            "Akkala Highlands"
+        ],
+        "hearts_recovered": 2.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/hearty_bass/image"
+    },
+    "50": {
+        "name": "staminoka bass",
+        "common_locations": [
+            "Hyrule Field",
+            "West Necluda"
+        ],
+        "hearts_recovered": 1.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/staminoka_bass/image"
+    },
+    "51": {
+        "name": "hearty salmon",
+        "common_locations": [
+            "Tabantha Frontier",
+            "Hebra Mountains"
+        ],
+        "hearts_recovered": 4.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/hearty_salmon/image"
+    },
+    "52": {
+        "name": "chillfin trout",
+        "common_locations": [
+            "Tabantha Frontier",
+            "Hebra Mountains"
+        ],
+        "hearts_recovered": 1.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/chillfin_trout/image"
+    },
+    "53": {
+        "name": "sizzlefin trout",
+        "common_locations": [
+            "Eldin Canyon",
+            "Eldin Mountains"
+        ],
+        "hearts_recovered": 1.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/sizzlefin_trout/image"
+    },
+    "54": {
+        "name": "voltfin trout",
+        "common_locations": [
+            "Tabantha Frontier",
+            "Hyrule Ridge"
+        ],
+        "hearts_recovered": 1.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/voltfin_trout/image"
+    },
+    "55": {
+        "name": "stealthfin trout",
+        "common_locations": [
+            "Great Hyrule Forest",
+            "Eldin Mountains"
+        ],
+        "hearts_recovered": 1.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/stealthfin_trout/image"
+    },
+    "56": {
+        "name": "mighty carp",
+        "common_locations": [
+            "Akkala Highlands",
+            "Lanayru Great Spring"
+        ],
+        "hearts_recovered": 1.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/mighty_carp/image"
+    },
+    "57": {
+        "name": "armored carp",
+        "common_locations": [
+            "Lanayru Great Spring",
+            "East Necluda"
+        ],
+        "hearts_recovered": 1.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/armored_carp/image"
+    },
+    "58": {
+        "name": "sanke carp",
+        "common_locations": [
+            "West Necluda"
+        ],
+        "hearts_recovered": 1.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/sanke_carp/image"
+    },
+    "59": {
+        "name": "mighty porgy",
+        "common_locations": [
+            "Necluda Sea",
+            "Lanayru Sea"
+        ],
+        "hearts_recovered": 1.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/mighty_porgy/image"
+    },
+    "60": {
+        "name": "armored porgy",
+        "common_locations": [
+            "Necluda Sea",
+            "Lanayru Sea"
+        ],
+        "hearts_recovered": 1.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/armored_porgy/image"
+    },
+    "61": {
+        "name": "sneaky river snail",
+        "common_locations": [
+            "West Necluda",
+            "Lanayru Great Spring"
+        ],
+        "hearts_recovered": 1.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/sneaky_river_snail/image"
+    },
+    "62": {
+        "name": "hearty blueshell snail",
+        "common_locations": [
+            "Lanayru Sea",
+            "Necluda Sea"
+        ],
+        "hearts_recovered": 1.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/hearty_blueshell_snail/image"
+    },
+    "63": {
+        "name": "razorclaw crab",
+        "common_locations": [
+            "Necluda Sea",
+            "East Necluda"
+        ],
+        "hearts_recovered": 1.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/razorclaw_crab/image"
+    },
+    "64": {
+        "name": "ironshell crab",
+        "common_locations": [
+            "Necluda Sea",
+            "East Necluda"
+        ],
+        "hearts_recovered": 1.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/ironshell_crab/image"
+    },
+    "65": {
+        "name": "bright-eyed crab",
+        "common_locations": [
+            "Lanayru Great Spring",
+            "Eldin Canyon"
+        ],
+        "hearts_recovered": 1.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/bright-eyed_crab/image"
+    },
+    "66": {
+        "name": "fairy",
+        "common_locations": [
+            "Greater Hyrule"
+        ],
+        "hearts_recovered": 5.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/fairy/image"
+    },
+    "67": {
+        "name": "winterwing butterfly",
+        "common_locations": [
+            "Hyrule Ridge",
+            "Tabantha Frontier"
+        ],
+        "hearts_recovered": 0.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/winterwing_butterfly/image"
+    },
+    "68": {
+        "name": "summerwing butterfly",
+        "common_locations": [
+            "Great Hyrule Forest",
+            "Eldin Mountains"
+        ],
+        "hearts_recovered": 0.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/summerwing_butterfly/image"
+    },
+    "69": {
+        "name": "thunderwing butterfly",
+        "common_locations": [
+            "Hyrule Ridge",
+            "Gerudo Highlands"
+        ],
+        "hearts_recovered": 0.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/thunderwing_butterfly/image"
+    },
+    "70": {
+        "name": "smotherwing butterfly",
+        "common_locations": [
+            "Eldin Canyon",
+            "Death Mountain"
+        ],
+        "hearts_recovered": 0.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/smotherwing_butterfly/image"
+    },
+    "71": {
+        "name": "cold darner",
+        "common_locations": [
+            "Tabantha Frontier",
+            "Hyrule Ridge"
+        ],
+        "hearts_recovered": 0.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/cold_darner/image"
+    },
+    "72": {
+        "name": "warm darner",
+        "common_locations": [
+            "Akkala Highlands",
+            "Hyrule Field"
+        ],
+        "hearts_recovered": 0.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/warm_darner/image"
+    },
+    "73": {
+        "name": "electric darner",
+        "common_locations": [
+            "Hyrule Ridge",
+            "Gerudo Desert"
+        ],
+        "hearts_recovered": 0.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/electric_darner/image"
+    },
+    "74": {
+        "name": "restless cricket",
+        "common_locations": [
+            "Hyrule Field",
+            "East Necluda"
+        ],
+        "hearts_recovered": 0.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/restless_cricket/image"
+    },
+    "75": {
+        "name": "bladed rhino beetle",
+        "common_locations": [
+            "West Necluda",
+            "East Necluda"
+        ],
+        "hearts_recovered": 0.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/bladed_rhino_beetle/image"
+    },
+    "76": {
+        "name": "rugged rhino beetle",
+        "common_locations": [
+            "Hyrule Field",
+            "Faron Grasslands"
+        ],
+        "hearts_recovered": 0.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/rugged_rhino_beetle/image"
+    },
+    "77": {
+        "name": "energetic rhino beetle",
+        "common_locations": [
+            "Akkala Highlands",
+            "West Necluda"
+        ],
+        "hearts_recovered": 0.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/energetic_rhino_beetle/image"
+    },
+    "78": {
+        "name": "sunset firefly",
+        "common_locations": [
+            "West Necluda",
+            "Great Hyrule Forest"
+        ],
+        "hearts_recovered": 0.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/sunset_firefly/image"
+    },
+    "79": {
+        "name": "hot-footed frog",
+        "common_locations": [
+            "Lanayru Great Spring",
+            "Hyrule Ridge"
+        ],
+        "hearts_recovered": 0.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/hot-footed_frog/image"
+    },
+    "80": {
+        "name": "tireless frog",
+        "common_locations": [
+            "Lanayru Great Spring",
+            "Hyrule Ridge"
+        ],
+        "hearts_recovered": 0.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/tireless_frog/image"
+    },
+    "81": {
+        "name": "hightail lizard",
+        "common_locations": [
+            "West Necluda",
+            "East Necluda"
+        ],
+        "hearts_recovered": 0.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/hightail_lizard/image"
+    },
+    "82": {
+        "name": "hearty lizard",
+        "common_locations": [
+            "Gerudo Desert",
+            "Necluda Sea"
+        ],
+        "hearts_recovered": 0.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/hearty_lizard/image"
+    },
+    "83": {
+        "name": "fireproof lizard",
+        "common_locations": [
+            "Eldin Canyon",
+            "Death Mountain"
+        ],
+        "hearts_recovered": 0.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/fireproof_lizard/image"
+    },
+    "165": {
+        "name": "apple",
+        "common_locations": [
+            "Hyrule Field",
+            "East Necluda"
+        ],
+        "hearts_recovered": 0.5,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/apple/image"
+    },
+    "166": {
+        "name": "palm fruit",
+        "common_locations": [
+            "East Necluda",
+            "Gerudo Desert"
+        ],
+        "hearts_recovered": 1.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/palm_fruit/image"
+    },
+    "167": {
+        "name": "wildberry",
+        "common_locations": [
+            "Gerudo Highlands",
+            "Hebra Mountains"
+        ],
+        "hearts_recovered": 0.5,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/wildberry/image"
+    },
+    "168": {
+        "name": "hearty durian",
+        "common_locations": [
+            "West Necluda",
+            "Faron Grasslands"
+        ],
+        "hearts_recovered": 3.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/hearty_durian/image"
+    },
+    "169": {
+        "name": "hydromelon",
+        "common_locations": [
+            "Gerudo Desert",
+            "Faron Grasslands"
+        ],
+        "hearts_recovered": 0.5,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/hydromelon/image"
+    },
+    "170": {
+        "name": "spicy pepper",
+        "common_locations": [
+            "Gerudo Desert",
+            "Tabantha Frontier"
+        ],
+        "hearts_recovered": 0.5,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/spicy_pepper/image"
+    },
+    "171": {
+        "name": "voltfruit",
+        "common_locations": [
+            "Gerudo Desert",
+            "Gerudo Highlands"
+        ],
+        "hearts_recovered": 0.5,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/voltfruit/image"
+    },
+    "172": {
+        "name": "fleet-lotus seeds",
+        "common_locations": [
+            "Lanayru Wetlands",
+            "Lanayru Great Spring"
+        ],
+        "hearts_recovered": 0.5,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/fleet-lotus_seeds/image"
+    },
+    "173": {
+        "name": "mighty bananas",
+        "common_locations": [
+            "Faron"
+        ],
+        "hearts_recovered": 0.5,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/mighty_bananas/image"
+    },
+    "174": {
+        "name": "hylian shroom",
+        "common_locations": [
+            "Hyrule Field",
+            "West Necluda"
+        ],
+        "hearts_recovered": 0.5,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/hylian_shroom/image"
+    },
+    "175": {
+        "name": "endura shroom",
+        "common_locations": [
+            "Hyrule Ridge",
+            "Hyrule Field"
+        ],
+        "hearts_recovered": 1.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/endura_shroom/image"
+    },
+    "176": {
+        "name": "stamella shroom",
+        "common_locations": [
+            "Hyrule Ridge",
+            "Hyrule Field"
+        ],
+        "hearts_recovered": 0.5,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/stamella_shroom/image"
+    },
+    "177": {
+        "name": "hearty truffle",
+        "common_locations": [
+            "Great Hyrule Forest",
+            "Hyrule Field"
+        ],
+        "hearts_recovered": 2.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/hearty_truffle/image"
+    },
+    "178": {
+        "name": "big hearty truffle",
+        "common_locations": [
+            "Hebra Mountains",
+            "Great Hyrule Forest"
+        ],
+        "hearts_recovered": 3.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/big_hearty_truffle/image"
+    },
+    "179": {
+        "name": "chillshroom",
+        "common_locations": [
+            "Hebra Mountains",
+            "Mount Lanayru"
+        ],
+        "hearts_recovered": 0.5,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/chillshroom/image"
+    },
+    "180": {
+        "name": "sunshroom",
+        "common_locations": [
+            "Eldin Canyon",
+            "Gerudo Highlands"
+        ],
+        "hearts_recovered": 0.5,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/sunshroom/image"
+    },
+    "181": {
+        "name": "zapshroom",
+        "common_locations": [
+            "Deep Akkala",
+            "Gerudo Highlands"
+        ],
+        "hearts_recovered": 0.5,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/zapshroom/image"
+    },
+    "182": {
+        "name": "rushroom",
+        "common_locations": [
+            "Gerudo Highlands",
+            "Hyrule Ridge"
+        ],
+        "hearts_recovered": 0.5,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/rushroom/image"
+    },
+    "183": {
+        "name": "razorshroom",
+        "common_locations": [
+            "Great Hyrule Forest",
+            "Tabantha Frontier"
+        ],
+        "hearts_recovered": 0.5,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/razorshroom/image"
+    },
+    "184": {
+        "name": "ironshroom",
+        "common_locations": [
+            "West Necluda",
+            "East Necluda"
+        ],
+        "hearts_recovered": 0.5,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/ironshroom/image"
+    },
+    "185": {
+        "name": "silent shroom",
+        "common_locations": [
+            "Lanayru Great Spring",
+            "West Necluda"
+        ],
+        "hearts_recovered": 0.5,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/silent_shroom/image"
+    },
+    "186": {
+        "name": "hyrule herb",
+        "common_locations": [
+            "Hyrule Field",
+            "Akkala Highlands"
+        ],
+        "hearts_recovered": 1.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/hyrule_herb/image"
+    },
+    "187": {
+        "name": "hearty radish",
+        "common_locations": [
+            "Hyrule Ridge",
+            "East Necluda"
+        ],
+        "hearts_recovered": 2.5,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/hearty_radish/image"
+    },
+    "188": {
+        "name": "big hearty radish",
+        "common_locations": [
+            "Akkala Highlands",
+            "Lanayru Great Spring"
+        ],
+        "hearts_recovered": 4.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/big_hearty_radish/image"
+    },
+    "189": {
+        "name": "cool safflina",
+        "common_locations": [
+            "Hebra Mountains",
+            "Gerudo Highlands"
+        ],
+        "hearts_recovered": 0.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/cool_safflina/image"
+    },
+    "190": {
+        "name": "warm safflina",
+        "common_locations": [
+            "Gerudo Desert",
+            "Hyrule Ridge"
+        ],
+        "hearts_recovered": 0.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/warm_safflina/image"
+    },
+    "191": {
+        "name": "electric safflina",
+        "common_locations": [
+            "Gerudo Desert",
+            "Hyrule Ridge"
+        ],
+        "hearts_recovered": 0.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/electric_safflina/image"
+    },
+    "192": {
+        "name": "swift carrot",
+        "common_locations": [
+            "Kakariko Village"
+        ],
+        "hearts_recovered": 0.5,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/swift_carrot/image"
+    },
+    "193": {
+        "name": "endura carrot",
+        "common_locations": [
+            "Hyrule Ridge",
+            "Faron Grasslands"
+        ],
+        "hearts_recovered": 2.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/endura_carrot/image"
+    },
+    "194": {
+        "name": "fortified pumpkin",
+        "common_locations": [
+            "Kakariko Village"
+        ],
+        "hearts_recovered": 0.5,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/fortified_pumpkin/image"
+    },
+    "195": {
+        "name": "swift violet",
+        "common_locations": [
+            "Gerudo Highlands",
+            "Hebra Mountains"
+        ],
+        "hearts_recovered": 0.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/swift_violet/image"
+    },
+    "196": {
+        "name": "mighty thistle",
+        "common_locations": [
+            "West Necluda",
+            "Faron Grasslands"
+        ],
+        "hearts_recovered": 0.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/mighty_thistle/image"
+    },
+    "197": {
+        "name": "armoranth",
+        "common_locations": [
+            "Akkala Highlands",
+            "Hyrule Ridge"
+        ],
+        "hearts_recovered": 0.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/armoranth/image"
+    },
+    "198": {
+        "name": "blue nightshade",
+        "common_locations": [
+            "West Necluda",
+            "Lanayru Great Spring"
+        ],
+        "hearts_recovered": 0.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/blue_nightshade/image"
+    },
+    "199": {
+        "name": "silent princess",
+        "common_locations": [
+            "Hyrule Ridge",
+            "West Necluda"
+        ],
+        "hearts_recovered": 0.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/silent_princess/image"
+    },
+    "200": {
+        "name": "courser bee honey",
+        "common_locations": [
+            "Hyrule Field",
+            "Tabantha Frontier"
+        ],
+        "hearts_recovered": 2.0,
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/courser_bee_honey/image"
+    }
+}

@@ -1,0 +1,1977 @@
+{
+    "Monsters": {
+        "name": "Monsters",
+        "type": "Category",
+        "children": [
+            {
+                "name": "waterblight ganon",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "guardian scout iv",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "guardian scout ii",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "blue-maned lynel",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "stalmoblin",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "windblight ganon",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "farosh",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "silver lynel",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "treasure octorok",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "ice chuchu",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "molduga",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "hinox",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "chuchu",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "dinraal",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "stone pebblit",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "stone talus",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "stalizalfos",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "blue moblin",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "blizzrobe",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "fire keese",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "thunderblight ganon",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "naydra",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "blue hinox",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "monk maz koshia",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "guardian stalker",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "white-maned lynel",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "electric wizzrobe",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "fire chuchu",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "guardian scout i",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "electric lizalfos",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "black moblin",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "snow octorok",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "forest octorok",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "keese",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "fireblight ganon",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "guardian turret",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "bokoblin",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "stone talus (rare)",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "stone talus (luminous)",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "lizalfos",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "stalkoblin",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "calamity ganon",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "igneo talus titan",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "frost pebblit",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "cursed moblin",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "master kohga",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "decayed guardian",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "sentry",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "lynel",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "black bokoblin",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "frost talus",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "black lizalfos",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "blue bokoblin",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "ice wizzrobe",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "rock octorok",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "water octorok",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "electric keese",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "cursed lizalfos",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "igneo talus",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "yiga blademaster",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "guardian scout iii",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "fire-breath lizalfos",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "blue lizalfos",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "cursed bokoblin",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "stalnox",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "moblin",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "silver bokoblin",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "electric chuchu",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "molduking",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "black hinox",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "yiga footsoldier",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "silver moblin",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "meteo wizzrobe",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "ice keese",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "silver lizalfos",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "dark beast ganon",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "ice-breath lizalfos",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "fire wizzrobe",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "igneo pebblit",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "guardian skywatcher",
+                "type": "Monster",
+                "children": []
+            },
+            {
+                "name": "thunder wizzrobe",
+                "type": "Monster",
+                "children": []
+            }
+        ]
+    },
+    "Equipment": {
+        "name": "Equipment",
+        "type": "Category",
+        "children": [
+            {
+                "name": "mighty lynel shield",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "ancient arrow",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "dragonbone moblin spear",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "drillshaft",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "throwing spear",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "dragonbone moblin club",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "silver longsword",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "traveler's sword",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "spiked boko shield",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "steel lizal bow",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "boko shield",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "royal guard's bow",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "zora spear",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "knight's halberd",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "soldier's spear",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "lightscale trident",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "moblin arm",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "savage lynel crusher",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "stone smasher",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "lizal forked boomerang",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "flameblade",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "eightfold blade",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "zora sword",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "knight's broadsword",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "silver shield",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "golden bow",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "mighty lynel spear",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "royal guard's spear",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "feathered spear",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "boko bat",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "fisherman's shield",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "woodcutter's axe",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "knight's claymore",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "lynel sword",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "guardian sword+",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "lizal tri-boomerang",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "scimitar of the seven",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "torch",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "knight's shield",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "soldier's shield",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "emblazoned shield",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "wooden shield",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "enhanced lizal spear",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "spiked boko spear",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "daybreaker",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "great frostblade",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "rusty claymore",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "ancient bladesaw",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "double axe",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "feathered edge",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "spring-loaded hammer",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "gerudo shield",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "ancient bow",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "forest dweller's bow",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "traveler's bow",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "guardian spear+",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "forked lizal spear",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "rusty halberd",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "wooden mop",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "spiked boko bat",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "great thunderblade",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "great flameblade",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "golden claymore",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "thunderstorm rod",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "moblin spear",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "lightning rod",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "hunter's shield",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "lizal bow",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "dragon bone boko bow",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "lynel spear",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "ancient battle axe",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "dragonbone boko bat",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "royal claymore",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "dragonbone boko club",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "royal broadsword",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "steel lizal shield",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "dragonbone boko shield",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "royal guard's shield",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "silver bow",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "wooden bow",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "spiked moblin spear",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "serpentine spear",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "windcleaver",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "spiked moblin club",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "eightfold longblade",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "boko club",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "duplex bow",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "savage lynel bow",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "lynel bow",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "boko bow",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "great eagle bow",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "bow of light",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "flamespear",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "royal halberd",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "mighty lynel crusher",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "korok leaf",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "rusty broadsword",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "lynel shield",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "lizal shield",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "traveler's shield",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "strengthened lizal bow",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "boko spear",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "boulder breaker",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "bokoblin arm",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "spiked boko club",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "forest dweller's sword",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "tree branch",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "savage lynel shield",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "guardian shield++",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "forest dweller's shield",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "shock arrow",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "knight's bow",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "lizal spear",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "vicious sickle",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "ice rod",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "guardian sword++",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "guardian sword",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "frostblade",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "pot lid",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "hylian shield",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "ice arrow",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "royal bow",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "frostspear",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "farmer's pitchfork",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "ancient battle axe++",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "ancient battle axe+",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "moblin club",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "meteor rod",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "iron sledgehammer",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "royal guard's sword",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "guardian shield",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "mighty lynel bow",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "guardian spear",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "demon carver",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "blizzard rod",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "lizal boomerang",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "fire arrow",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "phrenic bow",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "swallow bow",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "reinforced lizal shield",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "guardian spear++",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "dragonbone boko spear",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "royal guard's claymore",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "soldier's claymore",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "mighty lynel sword",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "moonlight scimitar",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "guardian shield+",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "kite shield",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "royal shield",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "arrow",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "savage lynel spear",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "traveler's spear",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "boat oar",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "ancient shield",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "farming hoe",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "fire rod",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "ancient short sword",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "bomb arrow",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "soldier's bow",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "spiked boko bow",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "thunderspear",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "ancient spear",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "gerudo spear",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "silverscale spear",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "edge of duality",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "giant boomerang",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "thunderblade",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "gerudo scimitar",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "boomerang",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "soup ladle",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "rusty shield",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "shield of the mind's eye",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "radiant shield",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "falcon bow",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "ceremonial trident",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "forest dweller's spear",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "fishing harpoon",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "lynel crusher",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "cobble crusher",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "traveler's claymore",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "lizalfos arm",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "savage lynel sword",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "soldier's broadsword",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "one-hit obliterator",
+                "type": "Equipment",
+                "children": []
+            },
+            {
+                "name": "master sword",
+                "type": "Equipment",
+                "children": []
+            }
+        ]
+    },
+    "Materials": {
+        "name": "Materials",
+        "type": "Category",
+        "children": [
+            {
+                "name": "swift carrot",
+                "type": "Material",
+                "children": []
+            },
+            {
+                "name": "hyrule herb",
+                "type": "Material",
+                "children": []
+            },
+            {
+                "name": "cool safflina",
+                "type": "Material",
+                "children": []
+            },
+            {
+                "name": "hylian shroom",
+                "type": "Material",
+                "children": []
+            },
+            {
+                "name": "courser bee honey",
+                "type": "Material",
+                "children": []
+            },
+            {
+                "name": "blue nightshade",
+                "type": "Material",
+                "children": []
+            },
+            {
+                "name": "hearty truffle",
+                "type": "Material",
+                "children": []
+            },
+            {
+                "name": "apple",
+                "type": "Material",
+                "children": []
+            },
+            {
+                "name": "sunshroom",
+                "type": "Material",
+                "children": []
+            },
+            {
+                "name": "mighty bananas",
+                "type": "Material",
+                "children": []
+            },
+            {
+                "name": "voltfruit",
+                "type": "Material",
+                "children": []
+            },
+            {
+                "name": "mighty thistle",
+                "type": "Material",
+                "children": []
+            },
+            {
+                "name": "hearty durian",
+                "type": "Material",
+                "children": []
+            },
+            {
+                "name": "stamella shroom",
+                "type": "Material",
+                "children": []
+            },
+            {
+                "name": "big hearty radish",
+                "type": "Material",
+                "children": []
+            },
+            {
+                "name": "wildberry",
+                "type": "Material",
+                "children": []
+            },
+            {
+                "name": "endura carrot",
+                "type": "Material",
+                "children": []
+            },
+            {
+                "name": "warm safflina",
+                "type": "Material",
+                "children": []
+            },
+            {
+                "name": "razorshroom",
+                "type": "Material",
+                "children": []
+            },
+            {
+                "name": "armoranth",
+                "type": "Material",
+                "children": []
+            },
+            {
+                "name": "fleet-lotus seeds",
+                "type": "Material",
+                "children": []
+            },
+            {
+                "name": "silent princess",
+                "type": "Material",
+                "children": []
+            },
+            {
+                "name": "fortified pumpkin",
+                "type": "Material",
+                "children": []
+            },
+            {
+                "name": "silent shroom",
+                "type": "Material",
+                "children": []
+            },
+            {
+                "name": "chillshroom",
+                "type": "Material",
+                "children": []
+            },
+            {
+                "name": "endura shroom",
+                "type": "Material",
+                "children": []
+            },
+            {
+                "name": "hydromelon",
+                "type": "Material",
+                "children": []
+            },
+            {
+                "name": "palm fruit",
+                "type": "Material",
+                "children": []
+            },
+            {
+                "name": "swift violet",
+                "type": "Material",
+                "children": []
+            },
+            {
+                "name": "electric safflina",
+                "type": "Material",
+                "children": []
+            },
+            {
+                "name": "hearty radish",
+                "type": "Material",
+                "children": []
+            },
+            {
+                "name": "rushroom",
+                "type": "Material",
+                "children": []
+            },
+            {
+                "name": "spicy pepper",
+                "type": "Material",
+                "children": []
+            },
+            {
+                "name": "ironshroom",
+                "type": "Material",
+                "children": []
+            },
+            {
+                "name": "zapshroom",
+                "type": "Material",
+                "children": []
+            },
+            {
+                "name": "big hearty truffle",
+                "type": "Material",
+                "children": []
+            }
+        ]
+    },
+    "Creatures": {
+        "name": "Creatures",
+        "type": "Category",
+        "children": [
+            {
+                "name": "winterwing butterfly",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "bladed rhino beetle",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "staminoka bass",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "thunderwing butterfly",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "ironshell crab",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "sneaky river snail",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "fireproof lizard",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "warm darner",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "stealthfin trout",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "voltfin trout",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "hearty salmon",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "energetic rhino beetle",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "sizzlefin trout",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "hearty bass",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "sunset firefly",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "fairy",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "bright-eyed crab",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "tireless frog",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "hearty blueshell snail",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "restless cricket",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "hearty lizard",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "hightail lizard",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "mighty porgy",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "sanke carp",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "chillfin trout",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "hyrule bass",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "hot-footed frog",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "smotherwing butterfly",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "summerwing butterfly",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "mighty carp",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "rugged rhino beetle",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "armored porgy",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "armored carp",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "electric darner",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "cold darner",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "razorclaw crab",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "maraudo wolf",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "mountain goat",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "lord of the mountain",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "hotfeather pigeon",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "rainbow sparrow",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "pink heron",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "blupee",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "cold-footed wolf",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "highland sheep",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "water buffalo",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "sand seal",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "seagull",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "sand sparrow",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "red sparrow",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "common sparrow",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "tabantha moose",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "eldin ostrich",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "bright-chested duck",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "grizzlemaw bear",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "honeyvore bear",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "wasteland coyote",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "snowcoat fox",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "patricia",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "mountain doe",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "horse",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "blue-winged heron",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "mountain crow",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "mountain buck",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "red-tusked boar",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "golden sparrow",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "hateno cow",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "great-horned rhinoceros",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "white goat",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "woodland boar",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "giant horse",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "white pigeon",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "bushy-tailed squirrel",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "white horse",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "rainbow pigeon",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "hylian retriever",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "donkey",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "stalhorse",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "cucco",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "islander hawk",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "wood pigeon",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "grassland fox",
+                "type": "Creature",
+                "children": []
+            },
+            {
+                "name": "blue sparrow",
+                "type": "Creature",
+                "children": []
+            }
+        ]
+    },
+    "Treasure": {
+        "name": "Treasure",
+        "type": "Category",
+        "children": [
+            {
+                "name": "luminous ore deposit",
+                "type": "Treasure",
+                "children": []
+            },
+            {
+                "name": "rare ore deposit",
+                "type": "Treasure",
+                "children": []
+            },
+            {
+                "name": "ore deposit",
+                "type": "Treasure",
+                "children": []
+            },
+            {
+                "name": "treasure chest",
+                "type": "Treasure",
+                "children": []
+            }
+        ]
+    }
+}

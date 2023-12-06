@@ -1,5 +1,7 @@
 import zelda_functions as utl
 from app import app
+import os
+import json
 
 CACHE_FILEPATH = './CACHE.json'
 NONE_VALUES = ('', 'n/a', 'none', 'unknown')
@@ -15,9 +17,10 @@ cache = utl.create_cache(CACHE_FILEPATH)
 
 
 class TreeNode:
-    def __init__(self, name, type, children=None):
+    def __init__(self, name, type, data=None, children=None):
         self.name = name
         self.type = type
+        self.data = data
         self.children = children or []
 
     def add_child(self, child_node):
@@ -69,6 +72,27 @@ def build_tree():
 
     return root_nodes
 
+def serialize_tree(node):
+    node_dict = {'name': node.name, 'type': node.type, 'children': []}
+    for child in node.children:
+        node_dict['children'].append(serialize_tree(child))
+    return node_dict
+
+def read_tree_from_json(json_file):
+    with open(json_file, 'r') as file:
+        data = json.load(file)
+
+    def construct_tree(node_data):
+        node = TreeNode(node_data['name'], node_data['type'])
+        for child_data in node_data.get('children', []):
+            child_node = construct_tree(child_data)
+            node.add_child(child_node)
+        return node
+
+    root_nodes = {}
+    for key, value in data.items():
+        root_nodes[key] = construct_tree(value)
+    return root_nodes
 
 def get_image_url(entry_name_or_id):
     """
@@ -93,9 +117,53 @@ def fetch_and_display_creatures():
         for creature in creatures_data['data']:
             print(creature['name'])
 
+def process_entries(input_filepath, output_filepath):
+    with open(input_filepath, 'r') as file:
+        data = json.load(file)
+
+    hearts_recovered_entries = {}
+    for key, entry in data.items():
+        if 'hearts_recovered' in entry:
+            hearts_recovered_entries[key] = {
+                'name': entry['name'],
+                'common_locations': entry.get('common_locations', []),
+                'hearts_recovered': entry['hearts_recovered'],
+                'image': entry['image']
+            }
+
+    with open(output_filepath, 'w') as file:
+        json.dump(hearts_recovered_entries, file, indent=4)
+
 
 
 def main():
+
+#Retrieve Tree
+    json_filename = 'hyrule_tree.json'
+
+    if not os.path.exists(json_filename):
+        root_nodes = build_tree()
+        tree_json = {name: serialize_tree(node) for name, node in root_nodes.items()}
+        with open(json_filename, 'w') as file:
+            json.dump(tree_json, file, indent=4)
+        print(f"Created new tree JSON file: {json_filename}")
+    else:
+        print(f"Tree JSON file already exists: {json_filename}")
+
+#Retrieve JSON
+    filename = 'hyrule_retrieved.json'
+
+    if not os.path.exists(filename):
+        data = utl.fetch_data_until_invalid(1)
+        utl.save_data_to_json(data, filename)
+    else:
+        print(f"'{filename}' already exists. Fetching data skipped.")
+
+    input_filepath = 'hyrule_retrieved.json'
+    output_filepath = 'hearts_recovered_entries.json'
+
+# Process the entries
+    process_entries(input_filepath, output_filepath)
     # fetch_and_display_creatures()
 
     # lynel_image_url = get_image_url("lynel")
