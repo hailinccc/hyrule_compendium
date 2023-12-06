@@ -190,9 +190,9 @@ def fetch_data_until_invalid(start_id, max_invalid=10):
         response = request_data(url)
         if response and 'data' in response:
             all_data[current_id] = response['data']
-            consecutive_invalid = 0  # Reset counter on valid response
+            consecutive_invalid = 0
         else:
-            consecutive_invalid += 1  # Increment counter on invalid response
+            consecutive_invalid += 1
 
         current_id += 1
 
@@ -232,14 +232,11 @@ def fetch_item_details(item_name, cache, cache_filepath):
     return None
 
 def find_minimal_heart_recovery(hearts_needed, materials_data):
-    # Convert materials_data to a list of (material_name, hearts_recovered)
     materials = [(mat['name'], mat['hearts_recovered']) for mat in materials_data]
 
-    # Initialize DP array, where dp[i] will be the minimal number of materials to recover i hearts
     dp = [float('inf')] * (hearts_needed + 1)
-    dp[0] = 0  # Base case: 0 materials needed to recover 0 hearts
+    dp[0] = 0
 
-    # Store the combination of materials
     combination = [None] * (hearts_needed + 1)
 
     for i in range(1, hearts_needed + 1):
@@ -248,7 +245,6 @@ def find_minimal_heart_recovery(hearts_needed, materials_data):
                 dp[i] = dp[i - hearts] + 1
                 combination[i] = material
 
-    # Reconstruct the combination of materials
     if dp[hearts_needed] == float('inf'):
         return "No combination found"
 
@@ -264,37 +260,33 @@ def fetch_data_by_category(category):
     """
     Fetch data from the API for a given category.
     """
-    api_url = f"https://your-api-endpoint.com/{category}"  # Replace with your actual API endpoint
+    api_url = f"https://your-api-endpoint.com/{category}"
     try:
         response = requests.get(api_url)
-        response.raise_for_status()  # This will raise an HTTPError if the HTTP request returned an unsuccessful status code
+        response.raise_for_status()
         data = response.json()
-        return data  # Assuming the API returns the data in JSON format
+        return data
     except requests.exceptions.RequestException as e:
         print(f"Error fetching data from API: {e}")
         return None
 
 def fetch_all_entries():
-    # Replace with the actual endpoint to fetch all entries
     api_url = "https://your-api-endpoint.com/all_entries"
     try:
         response = requests.get(api_url)
         response.raise_for_status()
-        return response.json()  # Assuming the response is in JSON format
+        return response.json()
     except requests.exceptions.RequestException as e:
         print(f"Error fetching data: {e}")
         return None
 
 
 def find_minimal_heart_combination(hearts_needed, items):
-    # Sort items by their heart recovery value
     items.sort(key=lambda x: x['hearts_recovered'])
 
-    # Initialize a list to store the best combination for each heart value up to hearts_needed
-    best_combinations = [None] * (int(hearts_needed * 10) + 1)  # Multiplied by 10 to handle decimal values
+    best_combinations = [None] * (int(hearts_needed * 10) + 1)
     best_combinations[0] = []
 
-    # Iterate through each possible heart value
     for heart_value in range(len(best_combinations)):
         for item in items:
             if item['hearts_recovered'] * 10 <= heart_value:
@@ -303,7 +295,6 @@ def find_minimal_heart_combination(hearts_needed, items):
                     if best_combinations[heart_value] is None or len(best_combinations[prev_value]) + 1 < len(best_combinations[heart_value]):
                         best_combinations[heart_value] = best_combinations[prev_value] + [item]
 
-    # Find the combination closest to but not exceeding hearts_needed
     for heart_value in range(int(hearts_needed * 10), -1, -1):
         if best_combinations[heart_value] is not None:
             return best_combinations[heart_value]
@@ -324,7 +315,7 @@ def perform_local_analysis(hearts_needed):
     else:
         return "No combination found", None
 
-# Example usage
-hearts_needed = 5  # You can change this value for testing
-combo_str, combo_items = perform_local_analysis(hearts_needed)
-print(combo_str)
+# # Example usage
+# hearts_needed = 5  # You can change this value for testing
+# combo_str, combo_items = perform_local_analysis(hearts_needed)
+# print(combo_str)

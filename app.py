@@ -55,7 +55,6 @@ def go_back_or_exit():
 @app.route('/analysis_options', methods=['GET', 'POST'])
 def analysis_options():
     if request.method == 'POST':
-        # Handle the user's choice here
         return redirect(url_for('heart_recovery_input'))
     return render_template('analysis_options.html')
 
@@ -66,7 +65,6 @@ def heart_recovery_input():
         if hearts_needed_str:
             try:
                 hearts_needed = float(hearts_needed_str)
-                # Directly call the analysis function here instead of redirecting
                 combo_str, best_combo = utl.perform_local_analysis(hearts_needed)
                 if best_combo:
                     return render_template('analysis_results.html', combo_str=combo_str, items=best_combo)
@@ -76,7 +74,6 @@ def heart_recovery_input():
                 return render_template('heart_recovery_input.html', error="Please enter a valid number.")
         else:
             return render_template('heart_recovery_input.html', error="Please enter the number of hearts.")
-    # Display the form on a GET request
     return render_template('heart_recovery_input.html')
 
 
@@ -87,7 +84,6 @@ def perform_analysis():
         hearts_needed = float(hearts_needed_str)
         combo_str, best_combo = utl.perform_local_analysis(hearts_needed)
         if best_combo:
-            # Prepare data for the pie chart
             labels = [item['name'] for item in best_combo]
             values = [item['hearts_recovered'] for item in best_combo]
 

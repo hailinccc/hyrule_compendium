@@ -13,8 +13,6 @@ HYRULE_IMAGE = f"{HYRULE_ENDPOINT}/entry/{{}}/image"
 
 # Initialize or retrieve cache
 cache = utl.create_cache(CACHE_FILEPATH)
-# item_data = utl.fetch_item_details('moblin', cache, CACHE_FILEPATH)
-
 
 class TreeNode:
     def __init__(self, name, type, data=None, children=None):
@@ -162,21 +160,7 @@ def main():
     input_filepath = 'hyrule_retrieved.json'
     output_filepath = 'hearts_recovered_entries.json'
 
-# Process the entries
     process_entries(input_filepath, output_filepath)
-    # fetch_and_display_creatures()
-
-    # lynel_image_url = get_image_url("lynel")
-    # print(f"Image URL for Lynel: {lynel_image_url}")
-
-    # try:
-    #     json_data = utl.read_json("path_to_your_json_file.json")
-    #     # Process json_data as needed
-    # except FileNotFoundError:
-    #     print("JSON file not found. Please check the file path.")
-
-    # Build the tree
-    hyrule_tree = build_tree()
 
 
 
